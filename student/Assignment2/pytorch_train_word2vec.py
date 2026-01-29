@@ -31,7 +31,6 @@ class SkipGramDataset(Dataset):
         context = row['context']
         return torch.tensor(center, dtype=torch.long), torch.tensor(context, dtype=torch.long)
 
-# Simple Skip-gram Module
 class Word2Vec(nn.Module):
     def __init__(self, vocab_size, embedding_dim):
         super().__init__()
