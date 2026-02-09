@@ -56,4 +56,5 @@ cdk.out/
 *.pt
 *.pth
 *.onnx
-*.npy
+*.npycc.en.300.vec
+cc.en.300.vec
