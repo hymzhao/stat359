@@ -1,5 +1,7 @@
-*.pth
-*.png
-*.model
+# Large embedding files
 *.npy
-__pycache__
+*.vec
+*.bin
+cc.en.300.vec
+word2vec-google-news-300*
+fasttext-wiki-news-300*

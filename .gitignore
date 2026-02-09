@@ -58,3 +58,13 @@ cdk.out/
 *.onnx
 *.npycc.en.300.vec
 cc.en.300.vec
+
+
+# Large embedding files
+*.npy
+*.vec
+*.bin
+cc.en.300.vec
+word2vec-google-news-300*
+fasttext-wiki-news-300*
+
