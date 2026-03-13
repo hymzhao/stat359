@@ -1,0 +1,72 @@
+[
+  {
+    "expression": "739",
+    "ground_truth": 739,
+    "predicted": 6,
+    "generated_text": "Evaluate : 739 <think> </think> Final Result : 6",
+    "correct": false
+  },
+  {
+    "expression": "237 + 586",
+    "ground_truth": 823,
+    "predicted": 20,
+    "generated_text": "Evaluate : 237 + 586 <think> Final Result : 20",
+    "correct": false
+  },
+  {
+    "expression": "556 + 875",
+    "ground_truth": 1431,
+    "predicted": 6,
+    "generated_text": "Evaluate : 556 + 875 <think> Final Result : 6",
+    "correct": false
+  },
+  {
+    "expression": "405",
+    "ground_truth": 405,
+    "predicted": 10,
+    "generated_text": "Evaluate : 405 <think> <think> Step 1 : 5 + 5 = 10 Expression now : 10 </think> Final Result : 10",
+    "correct": false
+  },
+  {
+    "expression": "661",
+    "ground_truth": 661,
+    "predicted": 6,
+    "generated_text": "Evaluate : 661 <think> </think> Final Result : 6",
+    "correct": false
+  },
+  {
+    "expression": "(885 + 781) - 260",
+    "ground_truth": 1406,
+    "predicted": 12,
+    "generated_text": "Evaluate : ( 885 + 781 ) - 260 <think> Step 1 : 10 + 2 = 12 Expression now : 12 </think> Final Result : 12",
+    "correct": false
+  },
+  {
+    "expression": "983 + 267",
+    "ground_truth": 1250,
+    "predicted": 7,
+    "generated_text": "Evaluate : 983 + 267 <think> 1 : 6 + 1 = 7 Expression now : 7 </think> Final Result : 7",
+    "correct": false
+  },
+  {
+    "expression": "396",
+    "ground_truth": 396,
+    "predicted": 6,
+    "generated_text": "Evaluate : 396 <think> </think> Final Result : 6",
+    "correct": false
+  },
+  {
+    "expression": "441",
+    "ground_truth": 441,
+    "predicted": 6,
+    "generated_text": "Evaluate : 441 <think> </think> Final Result : 6",
+    "correct": false
+  },
+  {
+    "expression": "65",
+    "ground_truth": 65,
+    "predicted": 65,
+    "generated_text": "Evaluate : 65 <think> <think> </think> Final Result : 65",
+    "correct": true
+  }
+]

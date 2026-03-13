@@ -68,3 +68,15 @@ cc.en.300.vec
 word2vec-google-news-300*
 fasttext-wiki-news-300*
 
+# Ignore massive machine learning models
+**/*.pt
+**/models/
+
+# Ignore massive datasets
+**/data/*.txt
+**/data/*.jsonl
+
+# Ignore Python cache and Jupyter checkpoints
+**/__pycache__/
+**/.ipynb_checkpoints/
+

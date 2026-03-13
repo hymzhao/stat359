@@ -1,0 +1,99 @@
+============================================================
+ARITHMETIC LLM EVALUATION SUMMARY
+============================================================
+
+Model: models/instruction_20260303_013325_759230/best_model.pt
+Tokenizer: data/tokenizer
+Timestamp: 20260303_151019
+
+METRICS:
+------------------------------------------------------------
+Total Samples: 100
+Correct Samples: 0
+Parseable Samples: 68
+Exact Match Accuracy: 0.00%
+Parse Success Rate: 68.00%
+Avg Generation Length: 99.58 tokens
+
+SAMPLE OUTPUTS:
+------------------------------------------------------------
+
+Sample 1:
+  Expression: ((59616 - ((61615 - 70061) + (40703 - 38458))) + ((51947 - (35254 - 72868)) - ((68835 + 53023) - (14492 + 29941)))) + ((24326 - ((16367 + 36991) - (54293 + 42624))) - 34840)
+  Ground Truth: 110998
+  Predicted: 92
+  Correct: False
+  Generated Text:
+    Evaluate : ( ( 59616 - ( ( 61615 - 70061 ) + ( 40703 - 38458 ) ) ) + ( ( 51947 - ( 35254 - 72868 ) ) - ( ( 68835 + 53023 ) - ( 14492 + 29941 ) ) ) ) + ( ( 24326 - ( ( 16367 + 36991 ) - ( 54293 + 42624 ) ) ) - 34840 ) <think> : ( ( 46 + ( 39 + 46 ) ) + ( 20 - ( 19 - 19 ) ) Step 3 : 46 + 46 = 90 Expression now : ( 56 + ( ( 19 - 19 ) - ( 19 - 19 ) ) ) + ( 20 - ( ( 3 + 3 ) + ( 16 + 16 ) ) ) Step 4 : 19 - 19 = 0 Expression now : ( 56 + ( 0 - ( 19 - 19 ) ) ) + ( 20 - ( ( 3 + 3 ) + ( 16 + 16 ) ) ) Step 5 : 19 - 19 = 0 Expression now : ( 56 + ( 0 - 0 ) ) + ( 20 - ( ( 3 + 3 ) + ( 16 + 16 ) ) ) Step 6 : 0 - 0 = 0 Expression now : ( 56 + 0 ) + ( 20 - ( ( 3 + 3 ) + ( 16 + 16 ) ) ) Step 7 : 56 + 0 = 56 Expression now : 56 + ( 20 - ( ( 3 + 3 ) + ( 16 + 16 ) ) ) Step 8 : 3 + 3 = 6 Expression now : 56 + ( 20 - ( 6 + ( 16 + 16 ) ) ) Step 9 : 16 + 16 = 32 Expression now : 56 + ( 20 - ( 6 + 32 ) ) Step 10 : 6 + 32 = 38 Expression now : 56 + 38 Step 11 : 56 + 38 = 92 Expression now : 92 </think> Final Result : 92
+
+Sample 2:
+  Expression: ((81589 + ((99516 - 14788) - (19856 - 92755))) - (((15444 + 26752) - (22882 - 88110)) - ((20678 + 32617) - (30551 - 91790)))) - ((((21272 + 23489) - 82468) + ((25281 + 99360) - (45493 - 35244))) + (((75549 + 83723) - (14510 + 30051)) + ((51466 - 14410) + 50268)))
+  Ground Truth: -32394
+  Predicted: None
+  Correct: False
+  Generated Text:
+    Evaluate : ( ( 81589 + ( ( 99516 - 14788 ) - ( 19856 - 92755 ) ) ) - ( ( ( 15444 + 26752 ) - ( 22882 - 88110 ) ) - ( ( 20678 + 32617 ) - ( 30551 - 91790 ) ) ) ) - ( ( ( ( 21272 + 23489 ) - 82468 ) + ( ( 25281 + 99360 ) - ( 45493 - 35244 ) ) ) + ( ( ( 75549 + 83723 ) - ( 14510 + 30051 ) ) + ( ( 51466 - 14410 ) + 50268 ) ) ) <think> : : : ( ( ( 46 + 50 Expression now : 46 + 46 Expression now : 46 + ( 46
+
+Sample 3:
+  Expression: 65957
+  Ground Truth: 65957
+  Predicted: 6
+  Correct: False
+  Generated Text:
+    Evaluate : 65957 <think> </think> Final Result : 6
+
+Sample 4:
+  Expression: (((90188 - (73475 - 44856)) + (40817 - (94626 + 90945))) - (69149 + 36963)) - ((24748 - 23653) + 43775)
+  Ground Truth: -234167
+  Predicted: -2
+  Correct: False
+  Generated Text:
+    Evaluate : ( ( ( 90188 - ( 73475 - 44856 ) ) + ( 40817 - ( 94626 + 90945 ) ) ) - ( 69149 + 36963 ) ) - ( ( 24748 - 23653 ) + 43775 ) <think> Step 2 : : ( ( 51 - ( 51 - 123 ) ) - ( 37 - ( 19 - ( 19 - 20 ) ) Step 3 : 51 - 54 = - 4 Expression now : ( ( 51 - - 4 ) + ( 5 - ( 19 - 20 ) ) ) - ( 6 + 6 ) Step 4 : 51 - - 4 = 55 Expression now : ( 55 + ( 5 - ( 19 - 20 ) ) ) - ( 6 + 6 ) Step 5 : 19 - 20 = - 1 Expression now : ( 55 + ( 5 - - 1 ) ) - ( 6 + 6 ) Step 6 : 5 - - 1 = 6 Expression now : ( 55 + 6 ) - ( 6 + 6 ) Step 7 : 55 + 6 = 61 Expression now : 61 - ( 6 + 6 ) Step 8 : 6 + 6 = 59 Expression now : 61 - 59 Step 9 : 61 - 59 = - 2 Expression now : - 2 </think> Final Result : - 2
+
+Sample 5:
+  Expression: ((((65016 - 83509) + (28301 - 50085)) + ((40537 - 71401) + (93924 - 18967))) - (((64190 + 19381) + 60252) - ((50212 - 15414) - (68364 - 93469)))) - ((((80648 - 61383) - (68767 - 26678)) - (11443 + (30516 + 14587))) - (((33355 + 57021) + (51200 + 67923)) + ((65824 + 35572) - (98294 - 45603))))
+  Ground Truth: 257470
+  Predicted: None
+  Correct: False
+  Generated Text:
+    Evaluate : ( ( ( ( 65016 - 83509 ) + ( 28301 - 50085 ) ) + ( ( 40537 - 71401 ) + ( 93924 - 18967 ) ) ) - ( ( ( 64190 + 19381 ) + 60252 ) - ( ( 50212 - 15414 ) - ( 68364 - 93469 ) ) ) ) - ( ( ( ( 80648 - 61383 ) - ( 68767 - 26678 ) ) - ( 11443 + ( 30516 + 14587 ) ) ) - ( ( ( 33355 + 57021 ) + ( 51200 + 67923 ) ) + ( ( 65824 + 35572 ) - ( 98294 - 45603 ) ) ) ) <think> : : : ( 46 + ( 47 Expression now : 46 - ( 47 + 46
+
+Sample 6:
+  Expression: 91936
+  Ground Truth: 91936
+  Predicted: 36
+  Correct: False
+  Generated Text:
+    Evaluate : 91936 <think> </think> Final Result : 36
+
+Sample 7:
+  Expression: ((22175 + 75942) - (57439 + 49432)) + (((92213 + 25189) + (58135 + (50250 - 23969))) - (((29247 + 23789) - (18410 + 97107)) - 92081))
+  Ground Truth: 347626
+  Predicted: None
+  Correct: False
+  Generated Text:
+    Evaluate : ( ( 22175 + 75942 ) - ( 57439 + 49432 ) ) + ( ( ( 92213 + 25189 ) + ( 58135 + ( 50250 - 23969 ) ) ) - ( ( ( 29247 + 23789 ) - ( 18410 + 97107 ) ) - 92081 ) ) <think> : ( ( ( 46 + 74 ) + ( ( ( ( (
+
+Sample 8:
+  Expression: 23626 + 32200
+  Ground Truth: 55826
+  Predicted: None
+  Correct: False
+  Generated Text:
+    Evaluate : 23626 + 32200 <think> : : 47
+
+Sample 9:
+  Expression: 94452
+  Ground Truth: 94452
+  Predicted: 6
+  Correct: False
+  Generated Text:
+    Evaluate : 94452 <think> </think> Final Result : 6
+
+Sample 10:
+  Expression: ((86078 - 54876) - (((89403 + 46280) - (95925 - 33157)) + (53805 + (53826 + 85852)))) - ((((18088 - 71969) - (11242 - 99159)) + ((62941 - 71801) + 98251)) + (77328 + 46460))
+  Ground Truth: -482411
+  Predicted: 89
+  Correct: False
+  Generated Text:
+    Evaluate : ( ( 86078 - 54876 ) - ( ( ( 89403 + 46280 ) - ( 95925 - 33157 ) ) + ( 53805 + ( 53826 + 85852 ) ) ) ) - ( ( ( ( 18088 - 71969 ) - ( 11242 - 99159 ) ) + ( ( 62941 - 71801 ) + 98251 ) ) + ( 77328 + 46460 ) ) <think> : ( ( ( ( 46 - 0 ) - 20 ) + ( 20 + 20 ) Step 4 : 46 + 46 = 94 Expression now : ( 47 - ( ( 46 - 46 ) - 20 ) + ( 20 + 20 ) ) Step 5 : 46 - 46 = 0 Expression now : ( 47 + ( 0 - 20 ) ) + ( 20 + 20 ) Step 6 : 0 - 20 = - 20 Expression now : ( 47 + 20 ) + ( 20 + 20 ) Step 7 : 47 + 20 = 69 Expression now : 69 + ( 20 + 20 Step 8 : 69 + 20 = 89 Expression now : 89 </think> Final Result : 89

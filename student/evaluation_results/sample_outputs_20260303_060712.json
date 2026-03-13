@@ -1,0 +1,72 @@
+[
+  {
+    "expression": "(4035 + ((8268 + (2932 - 9021)) - 7377)) - (6967 - (((2524 - 2823) + (9932 - 6738)) + ((1816 - 4773) - (6723 + 9935))))",
+    "ground_truth": -24850,
+    "predicted": 69,
+    "generated_text": "Evaluate : ( 4035 + ( ( 8268 + ( 2932 - 9021 ) ) - 7377 ) ) - ( 6967 - ( ( ( 2524 - 2823 ) + ( 9932 - 6738 ) ) + ( ( 1816 - 4773 ) - ( 6723 + 9935 ) ) ) ) <think> - ( 1 - ( ( 23 - 1 ) - ( 20 + 1 ) ) Step 2 : 36 + 35 = 71 Expression now : ( 71 + ( ( 23 - 23 ) + ( ( ( ( 20 - 1 ) - ( 20 - 20 ) ) ) + ( 1 - ( 20 + 1 ) ) Step 3 : 23 - 23 = 0 Expression now : ( 71 + ( 0 + ( 20 - 20 ) ) ) - ( 1 - ( ( 20 - 1 ) - ( 20 + 1 ) ) ) Step 4 : 20 - 20 = 0 Expression now : ( 71 + ( 0 + 0 ) ) - ( 1 - ( ( 20 - 1 ) - ( 20 + 1 ) ) ) Step 5 : 0 + 0 = 0 Expression now : ( 71 + 0 ) - ( 1 - ( ( 20 - 1 ) - ( 20 + 1 ) ) ) Step 6 : 71 + 0 = 71 Expression now : 71 - ( 1 - ( ( 20 - 1 ) - ( 20 + 1 ) ) ) Step 7 : 20 - 1 = 19 Expression now : 71 - ( 1 - ( 19 - ( 20 + 1 ) ) ) Step 8 : 20 + 1 = 21 Expression now : 71 - ( 1 - ( 19 - 21 ) ) Step 9 : 19 - 21 = - 2 Expression now : 71 - ( 1 - - 2 ) Step 10 : 1 - - 2 = 3 Expression now : 71 - 3 Step 11 : 71 - 3 = 69 Expression now : 69 </think> Final Result : 69",
+    "correct": false
+  },
+  {
+    "expression": "8390 + (((1936 - (5215 + 3294)) - ((7459 - 9069) + (2149 + 2151))) - (((5623 - 3645) - (9009 - 3519)) - ((7792 - 1647) + 9560)))",
+    "ground_truth": 18344,
+    "predicted": null,
+    "generated_text": "Evaluate : 8390 + ( ( ( 1936 - ( 5215 + 3294 ) ) - ( ( 7459 - 9069 ) + ( 2149 + 2151 ) ) ) - ( ( ( 5623 - 3645 ) - ( 9009 - 3519 ) ) - ( ( 7792 - 1647 ) + 9560 ) ) ) <think> Step 2 : ( ( ( 52 - ( ( 52 - 1 ) - ( 1 + 1 ) ) - ( ( ( 1 - 1 ) - ( 20 - 1 ) ) Step 2 : 52 - 1 = 50 Expression now : ( ( 50 - 50 ) - ( ( ( ( ( ( - 1 ) - 1 ) - ( 1 + 1 ) ) - ( ( ( 1 - 1 ) - ( 20 - 1 ) ) ) Step 3 : 50 - 50 = - 3 Expression now : ( - 3 - ( ( ( ( ( - 1 ) - 1 ) - ( 1 + 1 ) ) ) - ( ( ( 1 - 1 ) - ( 20 - 1 ) ) - ( 20 - 1 ) ) ) Step 4 : 1 - 1 = 0 Expression now : ( - 3 - ( ( 0 - 1 ) - ( 1 + 1 ) ) ) - ( ( ( 1 - 1 ) - ( 20 - 1 ) ) - ( 20 - 1 ) ) Step 5 : 0 - 1 = - 1 Expression now : ( - 3 - ( - 1 - ( 1 + 1 ) ) ) - ( ( ( 1 - 1 ) - ( 20 - 1 ) ) - ( 20 - 1 ) ) Step 6 : 1 + 1 = 2 Expression now : ( - 3 - ( - 1 - 2 ) ) - ( ( ( 1 - 1 ) - ( 20 - 1 ) ) - ( 20 - 1 ) ) Step 7 : - 1 - 2 = - 3 Expression now : ( - 3 - - 3 ) - ( ( ( 1 - 1 ) - ( 20 - 1 ) ) - ( 20 - 1 ) ) Step 8 : - 3 - - 3 = 0 Expression now : 0 - ( ( ( 1 - 1 ) - ( 20 - 1 ) ) - ( 20 - 1 ) ) Step 9 : 1 - 1 = 0 Expression now : 0 - ( ( 0 - ( 20 - 1 ) ) - ( 20 - 1 ) ) Step 10 : 20 - 1 = 19 Expression now : 0 - ( ( 0 - 19 ) - ( 20 - 1 )",
+    "correct": false
+  },
+  {
+    "expression": "2217",
+    "ground_truth": 2217,
+    "predicted": 34,
+    "generated_text": "Evaluate : 2217 <think> <think> Step 1 : 17 + 17 = 34 Expression now : 34 </think> Final Result : 34",
+    "correct": false
+  },
+  {
+    "expression": "((((6722 - 5358) - 1577) + (1487 + (9334 - 4246))) - (2375 + (2904 - (4967 + 1380)))) - ((5421 + ((4877 - 8188) - (5109 + 8228))) + 9020)",
+    "ground_truth": 9637,
+    "predicted": null,
+    "generated_text": "Evaluate : ( ( ( ( 6722 - 5358 ) - 1577 ) + ( 1487 + ( 9334 - 4246 ) ) ) - ( 2375 + ( 2904 - ( 4967 + 1380 ) ) ) ) - ( ( 5421 + ( ( 4877 - 8188 ) - ( 5109 + 8228 ) ) ) + 9020 ) <think> Step 2 : ( ( 20 + ( 21 - 1 ) ) + ( ( ( ( (",
+    "correct": false
+  },
+  {
+    "expression": "9727",
+    "ground_truth": 9727,
+    "predicted": 27,
+    "generated_text": "Evaluate : 9727 <think> <think> </think> Final Result : 27",
+    "correct": false
+  },
+  {
+    "expression": "1421",
+    "ground_truth": 1421,
+    "predicted": 20,
+    "generated_text": "Evaluate : 1421 <think> <think> </think> Final Result : 20",
+    "correct": false
+  },
+  {
+    "expression": "((((1270 + 5507) + (4168 - 4831)) - ((7065 - 4620) - 7940)) - 1628) + (((2558 - (5446 - 2927)) + ((6246 + 4203) - 6892)) - 2977)",
+    "ground_truth": 10600,
+    "predicted": null,
+    "generated_text": "Evaluate : ( ( ( ( 1270 + 5507 ) + ( 4168 - 4831 ) ) - ( ( 7065 - 4620 ) - 7940 ) ) - 1628 ) + ( ( ( 2558 - ( 5446 - 2927 ) ) + ( ( 6246 + 4203 ) - 6892 ) ) - 2977 ) <think> : ( ( ( 46 + - 20 ) - ( ( (",
+    "correct": false
+  },
+  {
+    "expression": "3550",
+    "ground_truth": 3550,
+    "predicted": 43,
+    "generated_text": "Evaluate : 3550 <think> <think> </think> Final Result : 43",
+    "correct": false
+  },
+  {
+    "expression": "7369 - 3106",
+    "ground_truth": 4263,
+    "predicted": 6,
+    "generated_text": "Evaluate : 7369 - 3106 <think> </think> Final Result : 6",
+    "correct": false
+  },
+  {
+    "expression": "1787",
+    "ground_truth": 1787,
+    "predicted": 6,
+    "generated_text": "Evaluate : 1787 <think> <think> </think> Final Result : 6",
+    "correct": false
+  }
+]
