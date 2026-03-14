@@ -20,12 +20,19 @@ evaluation_results/: Contains the JSON and text logs for all evaluation runs.
 
 ### Note: Assignment folders 1-3 and the general final_project folder are from previous coursework and are not part of this specific study.
 
-## How to Reproduce
-Environment: This project uses poetry. Run poetry install and poetry shell to set up dependencies.
+## How to Reproduce & Evaluate
+1. Environment Setup
+This project uses poetry. Run poetry install and poetry shell to set up the dependencies.
 
-Pipeline: Run student/01_training_and_analysis.ipynb to see the data generation and training logs.
+2. Viewing the Training Pipeline (No Execution Required)
+You can open student/01_training_and_analysis.ipynb to read through the data generation steps and view the preserved training logs. The final models are already saved in the models/ directory, so you do not need to rerun this notebook.
 
-Analysis: Run student/02_final_visualizations.ipynb to regenerate the final charts and diagnostic tests.
+3. Running the Analysis (Interactive)
+To evaluate the model and regenerate the findings:
+
+Open student/02_final_visualizations.ipynb.
+
+You can safely select "Run All". This notebook will load the pre-trained .pt checkpoints from the models/ folder, execute the OOD stress tests, and generate the final charts and Tokenizer X-Ray diagnostics instantly.
 
 ## Key Findings
 Physical Failure: Tokenizer X-rays show the model cannot "see" certain operators (like /) because they were not included in the BPE training.
